@@ -11,6 +11,6 @@ System Report:
 - Conceptual Diagram
 - Physical Diagram
 - SQL Queries
-- 
+  
 [Report.pdf](https://github.com/sarawalid99/UniversityLibrary_Management_System/files/11800341/Report.pdf)
 
