@@ -1,0 +1,73 @@
+-- Insert queries for Student table
+INSERT INTO Student (S_ID, FirstName, LastName, City, Street, PhoneNumber, Gender, Department, ACC_ID) VALUES
+    (1, 'Student1', 'Lastname1', 'Giza', 'Street1', '01012345678', 'Male', 'IT', 11),
+    (2, 'Student2', 'Lastname2', 'Giza', 'Street2', '01012345678', 'Female', 'IS', 12),
+    (3, 'Student3', 'Lastname3', 'Giza', 'Street3', '01012345678', 'Male', 'CS', 13),
+    (4, 'Student4', 'Lastname4', 'Giza', 'Street4', '01012345678', 'Female', 'AI', 14),
+    (5, 'Student5', 'Lastname5', 'Giza', 'Street5', '01012345678', 'Male', 'IT', 15),
+    (6, 'Student6', 'Lastname6', 'Giza', 'Street6', '01012345678', 'Female', 'IS', 16),
+    (7, 'Student7', 'Lastname7', 'Giza', 'Street7', '01012345678', 'Male', 'CS', 17),
+    (8, 'Student8', 'Lastname8', 'Cairo', 'Street8', '01012345678', 'Female', 'AI', 18),
+    (9, 'Student9', 'Lastname9', 'Cairo', 'Street9', '01012345678', 'Male', 'IT', 19),
+    (10, 'Student10', 'Lastname10', 'Cairo', 'Street10', '01012345678', 'Female', 'IS', 20);
+
+
+INSERT INTO Account (Email, Password) VALUES
+    ('1', 'P@ssw0r1'),
+    ('2', 'P@ssw0r2'),
+    ('3', 'P@ssw0r3'),
+    ('4', 'P@ssw0r4'),
+    ('5', 'P@ssw0r5'),
+    ('6', 'P@ssw0r6'),
+    ('7', 'P@ssw0r7'),
+    ('8', 'P@ssw0r8'),
+    ('9', 'P@ssw0r9'),
+    ('10', 'P@ssw010'),
+    ('1', 'P@ssw011'),
+    ('2', 'P@ssw012'),
+    ('3', 'P@ssw013'),
+    ('4', 'P@ssw014'),
+    ('5', 'P@ssw015'),
+    ('6', 'P@ssw016'),
+    ('7', 'P@ssw017'),
+    ('8', 'P@ssw018'),
+    ('9', 'P@ssw019'),
+    ('10', 'P@ssw020');
+
+
+INSERT INTO Admin (A_ID, FirstName, LastName, City, Street, PhoneNumber, Gender, Role, ACC_ID) VALUES
+    (1, 'John', 'Doe', 'Cairo', 'Street1', '0123456789', 'Male', 'Role1', 1),
+    (2, 'Jane', 'Smith', 'Cairo', 'Street2', '0123456789', 'Female', 'Role2', 2),
+    (3, 'David', 'Johnson', 'Cairo', 'Street3', '0123456789', 'Male', 'Role3', 3),
+    (4, 'Emily', 'Davis', 'Giza', 'Street4', '0123456789', 'Female', 'Role4', 4),
+    (5, 'Michael', 'Wilson', 'Giza', 'Street5', '0123456789', 'Male', 'Role5', 5),
+    (6, 'Sophia', 'Anderson', 'Cairo', 'Street6', '0123456789', 'Female', 'Role6', 6),
+    (7, 'Daniel', 'Lee', 'Giza', 'Street7', '0123456789', 'Male', 'Role7', 7),
+    (8, 'Olivia', 'Thomas', 'Giza', 'Street8', '0123456789', 'Female', 'Role8', 8),
+    (9, 'James', 'Harris', 'Giza', 'Street9', '0123456789', 'Male', 'Role9', 9),
+    (10, 'Emma', 'Martin', 'Giza', 'Street10', '0123456789', 'Female', 'Role10', 10);
+
+INSERT INTO Author (Name, Nationality, ISBN)
+VALUES ('Author 1', 'Nationality 1', 1),
+       ('Author 2', 'Nationality 2', 2),
+       ('Author 3', 'Nationality 3', 3),
+       ('Author 4', 'Nationality 4', 4),
+       ('Author 5', 'Nationality 5', 5),
+       ('Author 6', 'Nationality 6', 6),
+       ('Author 7', 'Nationality 7', 7),
+       ('Author 8', 'Nationality 8', 8),
+       ('Author 9', 'Nationality 9', 9),
+       ('Author 10', 'Nationality 10', 10);
+       
+       
+INSERT INTO Book (ISBN, Title, Category, Languge, Edition, PublisingYear) VALUES
+    (1, 'Book1', 'Category1', 'English', 'Edition1', '2021'),
+    (2, 'Book2', 'Category2', 'English', 'Edition2', '2022'),
+    (3, 'Book3', 'Category3', 'English', 'Edition3', '2000'),
+    (4, 'Book4', 'Category4', 'English', 'Edition4', '2000'),
+    (5, 'Book5', 'Category5', 'English', 'Edition5', '2021'),
+    (6, 'Book6', 'Category6', 'French', 'Edition6', '2021'),
+    (7, 'Book7', 'Category7', 'French', 'Edition7', '2021'),
+    (8, 'Book8', 'Category8', 'Arabic', 'Edition8', '2022'),
+    (9, 'Book9', 'Category9', 'Arabic', 'Edition9', '2022'),
+    (10, 'Book10', 'Category10', 'Arabic', 'Edition10', '2022');
